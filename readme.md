@@ -23,6 +23,13 @@ App CLI simple. Reto propuesto por la plataforma [roadmap.sh](https://roadmap.sh
 [{"id":1,"date":"Jan 15, 2024, 12:00:00 AM","description":"Compra de supermercado","amount":150.75},{"id":3,"date":"Jan 17, 2024, 12:00:00 AM","description":"Factura de electricidad","amount":80.5},{"id":4,"date":"Jan 18, 2024, 12:00:00 AM","description":"Almuerzo con amigos","amount":45.25},{"id":5,"date":"Jan 19, 2024, 12:00:00 AM","description":"Compra de ropa","amount":120.0},{"id":6,"date":"Jan 20, 2024, 12:00:00 AM","description":"Cine","amount":30.0},{"id":7,"date":"Jan 21, 2024, 12:00:00 AM","description":"Suscripcion mensual a servicio de streaming","amount":12.99},{"id":8,"date":"Jan 22, 2024, 12:00:00 AM","description":"Mantenimiento del auto","amount":200.0}]
 ```
 
+## Crear el .JAR
+- cd raiz del proyecto
+- ejecutar el comando mvn clean package
+- cd target
+- asegurarse que existe el archivo ./resources/bd.json en el mismo directorio del .JAR
+- abrir con cmd o crear archivo batch para su automatizacion
+
 ## Comandos
 
 Ejemplos
