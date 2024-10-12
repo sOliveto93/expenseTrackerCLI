@@ -58,3 +58,8 @@ $ delete 1
 $ update 1
 # gasto modificado con exito
 
+$ save
+# actualiza el bd.json con la nueva informacion
+
+$export
+# exporta la informacion a un .CSV (formato aceptado por excel)
