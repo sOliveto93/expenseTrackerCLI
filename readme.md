@@ -1,6 +1,6 @@
 # Expense Tracker
 
-Build a simple expense tracker application to manage your finances.
+App CLI simple. Reto propuesto por la plataforma [roadmap.sh](#roadmap.sh)
 
 ## Table of Contents
 - [Introduction](#introduction)
