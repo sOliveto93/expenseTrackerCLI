@@ -1,6 +1,6 @@
 # Expense Tracker
 
-App CLI simple. Reto propuesto por la plataforma [roadmap.sh](#roadmap.sh)
+App CLI simple. Reto propuesto por la plataforma [roadmap.sh](https://roadmap.sh/projects/expense-tracker)
 
 
 ## Features
@@ -12,20 +12,20 @@ App CLI simple. Reto propuesto por la plataforma [roadmap.sh](#roadmap.sh)
 - Mostrar el gasto total de los gastos.
 - Mostrar el gasto total de un mes.
 
-### Additional Features (Optional)
+### Extras (Optional)
 
 - Export expenses to a CSV file.
 
-## Commands
+## Comandos
 
-Here are some example commands and their expected output:
+Ejemplos
 
 ```bash
 $ add --description "Lunch" --amount 20
-# Expense added successfully (ID: 1)
+# Gasto agregado con exito (ID: 1)
 
 $ add --description "Dinner" --amount 10
-# Expense added successfully (ID: 2)
+# Gasto agregado con exito (ID: 2)
 
 $ list
 # ID  Date       Description  Amount
@@ -33,13 +33,14 @@ $ list
 # 2   2024-08-06  Dinner       $10
 
 $ summary
-# Total expenses: $30
-
-$delete --id 1
-# Expense deleted successfully
-
-$ summary
-# Total expenses: $20
+# gasto total: $30
 
 $ summary --month 8
-# Total expenses for August: $20
+# Gasto total del mes: $20
+
+$ delete 1
+# gasto eliminado con exito
+
+$ update 1
+# gasto modificado con exito
+
