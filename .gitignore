@@ -1,0 +1,29 @@
+# Maven target directory
+target/
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# IDE specific files
+*.iml
+.idea/
+.vscode/
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JAR files
+*.jar
+
+# Dependency management
+dependency-reduced-pom.xml
+
+# CSV files (if you want to ignore them)
+*.csv
+
+
